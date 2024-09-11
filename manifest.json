@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Informatics Dark Theme",
+    "version": "1.0",
+    "description": "Made by rzrplay",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://lms.informatics.ru/*"],
+        "css": ["style.css"]
+      }
+    ]
+  }
+  
