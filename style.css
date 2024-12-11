@@ -157,7 +157,7 @@ ul{
     background: #3f3f3f !important;
 }
 .modern-dropdown-list>.dropdown-menu .modern-list-group__item:hover, .modern-dropdown-list.dropdown-menu .modern-list-group__item:hover, .modern-list-group .modern-list-group__item:hover {
-    background-color: #343434 !important;
+    background-color: #3f3f3f !important;
 }
 .modern-dropdown-list>.dropdown-menu .modern-list-group__item, .modern-dropdown-list.dropdown-menu .modern-list-group__item, .modern-list-group .modern-list-group__item {
     color: #999 !important;
@@ -166,10 +166,10 @@ ul{
     background-color: #333 !important;
 }
 .problem-tabs.nav-tabs>li.active>a {
-    background: #3f3f3f !important;
+    background: #4f4f4f !important;
 }
 .formulate-input-wrapper .modern-select .vs__dropdown-toggle, .modern-page .shp__vs .vs__dropdown-toggle, .guideline-select .vs__dropdown-toggle, .vs__dropdown-menu--popper .vs__dropdown-toggle {
-    border: 2px solid #333 !important;
+    border: 1px solid #333 !important;
     background-color: #3f3f3f !important;
 }
 .formulate-input-wrapper:hover .modern-select:hover .vs__dropdown-toggle:hover, .modern-page:hover .shp__vs:hover .vs__dropdown-toggle:hover, .guideline-select:hover .vs__dropdown-toggle:hover, .vs__dropdown-menu--popper:hover .vs__dropdown-toggle:hover {
@@ -183,7 +183,7 @@ ul{
     border-bottom-right-radius: 12px !important;
 }
 .modern-page .formulate-input-wrapper .formulate-input-element textarea, .shp-modern-modal .formulate-input-wrapper .formulate-input-element textarea {
-    border: 2px solid #333 !important;
+    border: 1px solid #333 !important;
     border-radius: 12px !important;
 }
 .formulate-input-wrapper .modern-select .vs__selected-options .vs__selected, .modern-page .shp__vs .vs__selected-options .vs__selected, .guideline-select .vs__selected-options .vs__selected, .vs__dropdown-menu--popper .vs__selected-options .vs__selected {
@@ -452,7 +452,7 @@ table tbody tr:nth-child(n) td.white-background, table tbody tr:nth-child(n) th.
     background-color: #3f3f3f !important;
 }
 .shp-mavon-editor {
-    background-color: #333 !important;
+    background-color: #3f3f3f !important;
     border-top: 2px solid #3f3f3f !important;
     /* border-radius: 12px; */
 }
@@ -468,6 +468,7 @@ table tbody tr:nth-child(n) td.white-background, table tbody tr:nth-child(n) th.
 }
 .shp-mavon-editor .shp-mavon-editor__editor-container .shp-mavon-editor__editor.markdown-body {
     border: 2px solid #3f3f3f !important;
+    background-color: #333 !important;
 }
 .shp-chat .shp-chat__discussion-detail .shp-chat__discussion-detail-header {
     border-bottom: 2px solid #3f3f3f !important;
@@ -536,6 +537,7 @@ table tbody tr:nth-child(n) td.white-background, table tbody tr:nth-child(n) th.
 }
 .input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child>.btn-group:not(:last-child)>.btn {
     border-radius: 12px !important;
+    border-color: #4f4f4f !important;
 }
 .table>caption+thead>tr:first-child>th, .table>caption+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>thead:first-child>tr:first-child>th, .table>thead:first-child>tr:first-child>td {
     background: #333 !important;
@@ -718,7 +720,6 @@ body.skin-1 {
 }
 .panel-background.problem-element__footer>div>.btn-group>a:hover {
     border-color: #20638f !important;
-    border-left: none !important;
 }
 .dropdown-menu {border-radius: 12px !important;}
 .dropdown-menu>li>a {border-radius: 12px !important;}
@@ -737,4 +738,122 @@ body.skin-1 {
 .CodeMirror-hint:hover {
     background: #08f !important;
     color: white !important;
+}
+.panel-background.problem-element__footer>div>.btn-group>a:active {
+    border-color: #194f72 !important;
+}
+.file-card {
+    border-radius: 12px !important;
+    border: 1px solid #4f4f4f !important;
+    background-color: #333 !important;
+} 
+.shp-file-uploader .shp-file-uploader__select-button a {
+    border: 1px solid #4f4f4f !important;
+    border-radius: 12px !important;
+    color: #ccc !important;
+    background: #333 !important;
+}
+.online-tutors-visualizer__block {
+    background-color: #3f3f3f !important;
+}
+.online-tutors-visualizer {
+    background-color: #333 !important;
+}
+.online-tutors-console {
+    border-radius: 12px !important;
+    border: none !important;
+    color: #999 !important;
+}
+.border-radius {
+    border-radius: 12px !important;
+}
+.border-full {
+    border: 1px solid #333 !important;
+}
+.bg-color {
+    background: #3f3f3f !important;
+}
+.border-radius-top {
+    border-radius: 12px !important;
+}
+.white-bg {
+    background-color: #4f4f4f !important;
+}
+.border-bottom {
+    border-bottom: 1px solid #3f3f3f !important;
+}
+.ExecutionVisualizer .vcrControls {
+    background: #3f3f3f !important;
+}
+#navControlsDiv {
+    background: #3f3f3f !important;
+    border-bottom: 1px solid #3f3f3f !important;
+}
+.online-tutors-visualizer .CodeMirror {
+    border-bottom: none !important;
+}
+.flex.flex-vertical-center.bg-color {
+    justify-content: center !important;
+}
+.online-tutor-console{
+    background-color: #333 !important;
+}
+.tutors__input_container>div {
+    background: #333 !important;
+}
+.vue-slide-bar[data-v-d3e7b39a] {
+    background-color: #ffffff !important;
+    cursor:default !important;
+}
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    border-radius: 12px !important;
+    border-color: #4f4f4f !important;
+}
+.notifications-dropdown-footer {
+    border-top: 1px solid #3f3f3f !important;
+}
+.notifications-dropdown-content .notifications-dropdown-event.feed-event:not(:first-child) {
+    border-top: 1px solid #3f3f3f !important;
+}
+.nav.nav-tabs.modern-nav-tabs.panel-tabs:after {
+    background: #3f3f3f !important;
+}
+.shp-chat__counter-label {
+    background-color: #0062ff !important;
+    color: #fff !important;
+}
+.shp-chat .shp-chat__discussion-detail .shp-chat__discussion-comment-wrapper .shp-chat__discussion-message-wrapper .shp-chat__discussion-message {
+    background-color: #333 !important;
+}
+.modern-input-group_append>button {
+    background: #333 !important;
+}
+.modern-input__icon-group {
+    background-color: none !important;
+}
+.modern-input-group .formulate-input:first-child .modern-input__icon-group, .modern-input-group .formulate-input:first-child input, .modern-input-group .formulate-input:first-child .vs__dropdown-toggle, .modern-page .input-group .formulate-input:first-child .modern-input__icon-group, .modern-page .input-group .formulate-input:first-child input, .modern-page .input-group .formulate-input:first-child .vs__dropdown-toggle {
+    border-radius: 12px 0 0 12px !important;
+    border: 1px solid #333 !important;
+    background: #333;
+}
+.v-note-wrapper {
+    background-color: none;
+    border-radius: 12px !important;
+}
+textarea.auto-textarea-input.no-border.no-resize {
+    color: #ccc !important;
+}
+.dropdown button.notification-button .notification-dot {
+    border:none !important;
+}
+.shp-mark-warning {
+    background: rgb(255, 202, 42) !important;
+    color: #ffffff !important;
+}
+.shp-mark-info {
+    background: #0062ff !important;
+    color: #fff !important;
+}
+.shp-mark .shp-mark-commented {
+    border: none !important;
 }
